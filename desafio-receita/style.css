@@ -1,4 +1,60 @@
+* {
+    /*Resetando o conteúdo*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
-    background: #eaeaea;
-    font-family: 'Roboto', sans-serif;  
+    background-color: #EAEAEA;
+    font-family: 'Roboto',sans-serif;
+}
+.conteudo-receita{
+    background-color: #FFFFFF;
+    margin: 30px auto;
+    width: 70%;
+    height: 130vh;
+    padding: 20px;
+    border-radius: 10px;
+
+ 
+
+}
+h1{
+    color: #1B1B1B;
+    font-size: 28px;
+    text-align: center;
+    margin: 0.6em auto;
+}
+img{
+    margin: 10px auto;
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: none;
+}
+h2{
+    color: #1B1B1B;
+    font-size: 20px;
+    text-align: center;
+    margin: 15px auto;
+}
+li{
+    font-size: 16px;
+    line-height: 26px;
+    list-style-position: inside;
+    padding: 10px 0;
+}
+
+figcaption{
+    text-align: right;
+}
+
+footer, figure figcaption {
+   color: #8F8F8F;
+   font-size: 12px;
+}
+
+footer{
+    text-align: center;
+    margin: 10px auto;
 }
